@@ -1,1 +1,5 @@
-web: ruby serv.rb -p $PORT
+require 'sinatra'
+
+get '/' do
+redirect to ('/index.html')
+end
