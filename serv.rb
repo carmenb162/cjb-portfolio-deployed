@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-redirect to ('/index.html')
+redirect to ('/carmen.html')
 end
