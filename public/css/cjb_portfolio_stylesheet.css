@@ -1,0 +1,168 @@
+/*PAGE WIDE SETTINGS*/
+* {
+	box-sizing: border-box;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+/*END OF PAGE WIDE SETTINGS*/
+
+.nav-links a,
+.nav-links a:visited{
+	color: white;
+}
+
+.nav-links a:hover{
+	color: lightgrey;
+}
+
+body {
+  margin: 0;
+}
+
+
+/* BEGIN SPLASH ONE WORK*/
+
+#splash-one{
+  height:100%;
+  width:100%;
+  display: flex;
+  background: -webkit-radial-gradient(left 70%,  #f0f2f4, #b6bfc8,#778899);
+  flex-direction:column;
+  margin:0;
+  border:0;
+}
+
+div.splash-one-element{
+  height:100%;
+  width:100%;
+  display: flex;
+  background-color: transparent;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Raleway';
+  text-align: center;
+  font-size: 4em;
+  color: #191970;
+}
+
+img.centered-circular {
+  justify-content: center;
+  display: block;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+  box-shadow: 0 0 0 15px #DCDCDC;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#name-big{
+  font-weight: bolder;
+  /*font-size: 3em;*/
+}
+
+#shit-happen{
+  font-size: 2em;
+  padding-top: 0;
+}
+
+div.three-bio-paragraphs{
+  display: flex;
+  background-color: transparent;
+  flex-direction: row;
+  width:100%;
+  padding-top:0;
+}
+
+div.short-paragraph{
+  display: flex;
+  font-family: 'Raleway';
+  /*flex-direction: column;*/
+  font-size: 1em;
+  color: black;
+  /*flex-wrap: nowrap;*/
+  /*flex-grow: 1;*/
+  /*align-items: flex-start;*/
+  margin:0.5em;
+  width:33%;
+  padding:3em;
+  /*text-align: left;*/
+  /*justify-content:flex-start;*/
+}
+
+p.bio-paragraph-headline {
+  text-align:left;
+  align-content: flex-start;
+  margin:0;
+  font-size: 2em;
+}
+
+
+p.centered-bio-paragraphs {
+  text-align:justify;
+  align-content: flex-end;
+  margin: 0;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-left: 1em;
+}
+
+
+/* FOOTER */
+footer {
+	background-color: #778899;
+  display:flex;
+}
+
+footer nav.horiz-nav-bar{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 3rem;
+  margin:0;
+  padding: 0;
+}
+
+footer .nav-links{
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  height: 3rem;
+  margin:0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+ul.nav-links{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+footer nav ul li {
+  justify-content: center;
+  display: flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  font-size: 2em;
+  padding: 0.5em 0 0.5em 1em;
+  text-align: center;
+}
+/* END FOOTER */
+
+
+/*
+<iframe width="420" height="315"
+src="https://www.youtube.com/watch?v=HXSbYLxl2xU">
+
+</iframe>*/
